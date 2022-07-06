@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #fafafa;
+}
+.topbar-profile-photo{
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.story-profile-photo{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    border-width: 2px !important;
+}
+
+
+.list-inline-item {
+width: 100%;
+display: flex !important;
+align-items: center;
+justify-content: center;
+}
+
+.list-inline1{
+    list-style: none;
+}
+
+.card-header{
+    padding: 10px;
+}
+
+.card-body{
+    padding: 5px 0px 10px 20px;
+
+}
+
+.slick-slide {
+    width:79px !important;
+}
+
+
+.yorumekle{
+
+    
+    background: none;
+    border: none;
+    color: rgb(var(--ig-primary-text));
+    display: flex;
+    flex-grow: 1;
+    font-size: inherit;
+    max-height: 80px;
+    outline: none;
+    padding: 0;
+    resize: none;
+    width: 0;
+}
+
+.textarea{
+    overflow: hidden !important;
+}
+
+.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   background-color: white;
+    font-size: 20px;
+    z-index: 99999;
+}
+
+
+.stickgray{
+    position: -webkit-sticky;
+    position: fixed;
+    background-color: #fafafa;
+    font-size: 20px;
+    z-index: 9999;
+    max-width: 500px;
+    width: 100%;
+}
+
